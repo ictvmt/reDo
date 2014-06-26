@@ -1,2 +1,11 @@
-<h1>Ictvmt#home</h1>
-<p>Find me in app/views/ictvmt/home.html.erb</p>
+<% provide(:ten, 'Tung') %>
+<html>
+	<head>
+		<title>Vuong <%= yield(:ten) %></title>
+	</head>
+	<body>
+		<h1>Ictvmt</h1>
+		<h2>Home</h2>
+		<p>Vuong Tung is professional</p>
+	</body>
+</html>
